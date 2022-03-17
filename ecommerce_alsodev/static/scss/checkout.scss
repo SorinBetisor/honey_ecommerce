@@ -1,0 +1,69 @@
+#checkout {
+    margin-top: 26px;
+    position: relative;
+    padding-top: 50px;
+    p {
+        font-family: thin;
+    }
+    label {
+        position: absolute;
+        top: 27px;
+        left: 28px;
+        z-index: 50;
+        font-family: main;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.2)
+    }
+    input {
+        position: relative;
+        background-color: rgba(249, 249, 249, 1);
+        height: 80px;
+        width: 100%;
+        padding: 30px 28px 27px 28px;
+        font-family: main;
+        font-size: 20px;
+        border: 1px black solid;
+        border-radius: 10px;
+    }
+    input::placeholder {
+        color: rgba(0, 0, 0, 0.2);
+    }
+    button {
+        height: 60px;
+        font-family: regular;
+        width: 250px;
+        font-size: 20px;
+    }
+    #placeholder {
+        display: inline-block !important;
+    }
+}
+
+.containerWithButt {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#warning {
+    padding: 20px 0px 0px 20px;
+    font-family: thin;
+    font-size: 13px;
+}
+
+.containerWithButt {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h4 {
+        margin-right: 10px;
+    }
+    .oneLine {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+}

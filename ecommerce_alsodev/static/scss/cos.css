@@ -1,0 +1,135 @@
+.cartItems {
+  padding: 100px 0px 0px 0px;
+}
+
+.cartItems .cartItem {
+  width: 100%;
+  height: 150px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  background-color: #fff8e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #beb289;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #505050;
+}
+
+.cartItems .cartItem .cartImg img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.cartItems .cartItem .cartTitle {
+  font-family: info;
+  font-size: 1.4em;
+}
+
+.cartItems .cartItem .cartDesc {
+  font-family: light;
+  font-size: 0.7em;
+}
+
+.cartItems .cartItem .counter {
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+.cartItems .cartItem .arrL img,
+.cartItems .cartItem .arrR img {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cartItems .cartItem .arrL {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.cartItems .cartItem .finalPrice {
+  font-size: 1.2em;
+}
+
+.cartItems .cartItem .removeCart img {
+  height: 30px;
+  width: 30px;
+}
+
+.cartItems .cartItem .removeCart {
+  cursor: pointer;
+}
+
+.cartItems .cartItem .itemPrice,
+.cartItems .cartItem .finalPrice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cartItems .cartItem .itemPrice .price,
+.cartItems .cartItem .finalPrice .price {
+  padding: 10px;
+}
+
+#second {
+  margin-top: 50px;
+}
+
+#second .containerSecond {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#second .oneLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#second .oneLine h4 {
+  margin-right: 10px;
+}
+
+#second button {
+  height: 60px;
+  font-family: regular;
+  width: 250px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=cos.css.map */
