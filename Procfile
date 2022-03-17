@@ -1,0 +1,1 @@
+web: gunicorn Honey_Ecommerce-main.wsgi
