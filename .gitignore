@@ -1,7 +1,6 @@
 myenv
 node_modules
 *.config.js
-package*
 #MAC BABALAU
 .DS_Store
 
