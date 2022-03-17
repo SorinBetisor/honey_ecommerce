@@ -10,7 +10,8 @@
         "watch": "webpack --watch --config webpack.dev.config.js",
         "shop": "webpack --watch --config webpack-shop.dev.config.js",
         "common": "webpack --watch --config webpack-common.dev.config.js",
-        "cart": "webpack --watch --config webpack-cart.dev.config.js"
+        "cart": "webpack --watch --config webpack-cart.dev.config.js",
+        "start": "node index.js"
     },
     "dependencies": {
         "babel": "^6.23.0",
