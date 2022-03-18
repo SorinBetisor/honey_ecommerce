@@ -1,1 +1,1 @@
-web: gunicorn honey_ecommerce.wsgi
+web: gunicorn ecommerce_alsodev.wsgi
