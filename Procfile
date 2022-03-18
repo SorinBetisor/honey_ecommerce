@@ -1,1 +1,1 @@
-web: gunicorn --chdir ecommerce_alsodev:app
+web: gunicorn --chdir ecommerce_alsodev app:app
