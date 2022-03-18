@@ -1,1 +1,1 @@
-web: gunicorn ecommerce_alsodev.wsgi
+web: gunicorn --chdir ecommerce_alsodev:app
