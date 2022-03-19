@@ -79,6 +79,15 @@
             font-size: 14px;
         }
     </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="{% static 'favicon/browserconfig.xml' %}">
+    <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -220,7 +229,7 @@
                                                 <h5>Incearcă gustul <span class="golden">mierii</span> colectate cu multă iubire</h5>
                                             </div>
                                             <a href="{% url 'desprenoi' %}">
-                                            <button class="defaultButton" style="z-index:50 !important;">
+                                                <button class="defaultButton" style="z-index:50 !important;">
                                                 Despre noi
                                             </button>
                                             </a>
@@ -281,8 +290,9 @@
                         <div class="containerLorem">
                             <p style="text-align:center">Mierea<br> "Sănătate Dulce"</p>
                             <h3>
-                                Mierea <b><i>"Sănătate Dulce"</i></b> este 100% naturală, nepasteurizată, neprocesată și nefiltrată, îmbuteliată cu dragoste, păstrând întreaga bunătate naturală pe care mierea crudă o are de oferit! Cristalizarea are loc în mod natural și nu are efecte negative asupra
-                                mierii în sine - de fapt, ajută la păstrarea nutrienților și a calității! Mierea noastră este disponibilă sub formă lichidă, cremă sau cristalizată și în diferite dimensiuni, de la borcane mici la găleți de 45 kg!
+                                Mierea <b><i>"Sănătate Dulce"</i></b> este 100% naturală, nepasteurizată, neprocesată și nefiltrată, îmbuteliată cu dragoste, păstrând întreaga bunătate naturală pe care mierea crudă o are de oferit! Cristalizarea are loc
+                                în mod natural și nu are efecte negative asupra mierii în sine - de fapt, ajută la păstrarea nutrienților și a calității! Mierea noastră este disponibilă sub formă lichidă, cremă sau cristalizată și în diferite dimensiuni,
+                                de la borcane mici la găleți de 45 kg!
 
                             </h3>
                         </div>
