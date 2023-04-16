@@ -2,13 +2,13 @@
 This is an ecommerce website created using Django, React, Vue, and PHP. The site was built as part of the Tekwill Junior Ambassadors Web Development Contest and features a working database in PostgreSQL and dynamic templating.
 
 ## Technologies Used
-Django
-React
-Vue
-PHP
-PostgreSQL
-HTML
-CSS
+* Django
+* React
+* Vue
+* PHP
+* PostgreSQL
+* HTML
+* CSS
 
 ## Features
 Cross-platform compatibility
@@ -20,3 +20,7 @@ E-mail notifier on order
 
 ## Credits
 This project was created by me and @CartiologyDEV for the Tekwill Junior Ambassadors Web Development Contest. We would also like to thank Tekwill for organizing the competition and providing us with the opportunity to showcase our skills.
+
+
+#### Note:
+The site was placed on Heroku, so the wsgi explains itself. However, heroku shut down it's free plan.
