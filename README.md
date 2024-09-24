@@ -31,8 +31,8 @@ This is an ecommerce website developed for bee product sales, built as part of t
 ## Deployment
 The site was initially hosted on Heroku, but due to the discontinuation of Heroku’s free tier, alternative deployment options are required. The project is compatible with any WSGI-compatible hosting service.
 
-###Credits
+## Credits
 This project was developed by me and @CartiologyDEV as part of the Tekwill Junior Ambassadors Web Development Contest. We thank Tekwill for organizing the competition and providing us with this platform to showcase our skills.
 
-##Notes
+## Notes
 The project was initially deployed on Heroku with WSGI configuration, but Heroku’s free plan has been discontinued, necessitating migration to other hosting services.
